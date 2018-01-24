@@ -1,0 +1,8 @@
+<table class='table'>
+    <tr>
+        <th ng-repeat="key in keys">{{ key}} </th>
+    </tr>
+    <tr ng-repeat="ship in shippers">
+      <td ng-repeat="key in keys">{{ ship[key] }}+s </td>
+    </tr>
+</table>
